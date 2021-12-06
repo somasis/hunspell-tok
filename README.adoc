@@ -1,0 +1,3 @@
+= hunspell-tok
+
+ni li lipu nimi tawa ilo http://hunspell.github.io/[hunspell(1)].

@@ -1,0 +1,8 @@
+SET UTF-8
+TRY aeijklmnopstuw
+
+KEY qwertyuiop|asdfghjkl|zxcvbnm
+
+BREAK 0
+
+KEEPCASE lc
