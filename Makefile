@@ -10,6 +10,9 @@ tok.bdic: tok.aff tok.dic
 
 bdic: tok.bdic
 
+clean:
+	rm -f tok.bdic
+
 install: tok.aff tok.dic
 	install -d ${DESTDIR}${dictdir}
 	install -m 0644 ./tok.aff ${DESTDIR}${dictdir}
