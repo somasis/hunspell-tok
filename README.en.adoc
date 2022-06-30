@@ -1,0 +1,24 @@
+= hunspell-tok
+:lang: en
+
+xref:README.adoc[o lukin e lipu ni lon toki pona].
+
+This repository contains a Toki Pona dictionary for http://hunspell.github.io/[`hunspell(1)`].
+
+You can install this and use it like any other `hunspell` dictionary.
+
+== Installation
+
+1. If you want to use this on a browser, check out `make bdic`.
+   This target creates a dictionary for Chromium based-browsers.
+   To create the dictionary, you need `qwebengine_convert_dict`, which can be found in your
+   distribution's `qtwebengine` package, usually.
+2. `make install [prefix=/usr/local]`. You can look at the `Makefile` to see more variables
+   that affect the installation; it's pretty simple.
+
+== Names included
+
+This dictionary contains all the words from {pu}["lipu pu", or *Toki Pona: The Language of Good*],
+by Sonja Lang. The dictionary within the book was explicitly released into the public domain.
+
+:pu: https://tokipona.org/
