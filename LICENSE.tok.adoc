@@ -1,0 +1,48 @@
+SPDX-License-Identifier: (CC-BY-SA-3.0 AND CC-BY-SA-4.0) AND CC0-1.0
+
+nimi ilo `hunspell-tok` li tawa jan ale. kepeken ala wile mama la, jan ale
+li ken kepeken ni, li ken ante e ni, li ken pana e ni, li ken esun e ni,
+li ken ale e ni.
+
+tan ken pi lawa ma la, jan Juli / Kylie McClain <kylie@somas.is>
+li weka e ken awen tan pali ni, li weka e wan pi mama ona.
+ale ni li kama tawa jan ale.
+
+http://creativecommons.org/publicdomain/zero/1.0/
+
+'''
+
+lipu lawa CC0 li lawa e ale ni:
+* nimi tan pali ni, tan ala nimi Linku.
+  nimi ni li kama lon lipu pini pi pali ni.
+  ijo ni li lon lipu pi nimi open `augment_`.
+* ilo ale pi open pali.
+  ni li lon lipu `Makefile`, lon lipu pi nimi pini `.jq`.
+  ilo ni li tawa wile pi pali lipu.
+
+lipu pini pi pali ni li tawa _ala_ jan ale kepeken lipu lawa CC0.
+mama mute li lawa e lipu pini. lawa mute li ni:
+* lipu lawa CC-BY-SA 3.0 en lipu lawa CC-BY-SA 4.0 li mama e...
+    ** ijo tan nimi Linku
+* jan ale li ken mama e...
+    ** nimi tan lipu pu
+    ** ijo tan nimi pi pali ni
+
+tenpo suno 2022-08-29 la, nimi Linku li lawa tan lipu lawa mute ni:
+> _The Official Toki Pona Dictionary_ on pages 125 to 134 of "Toki Pona:
+> The Language of Good" is in the **public domain**.
+> _nimi ale pona_ is licensed to the public for reuse under the **Creative
+> Commons Attribution ShareAlike licenses 3.0 and 4.0**.
+> As of 2022-06-12, _Linku_ is in the process of getting licensed to the
+> public for reuse under the **Creative Commons Attribution ShareAlike
+> licenses 3.0 and 4.0**.
+> If you contribute text directly to Linku, you thereby agree to license
+> it under the same licenses (CC BY-SA 3.0 and CC BY-SA 4.0).
+> --{nimiLinkuQuote}
+
+sina wile kama sona e lipu lawa pi tenpo ni la, o lukin e toki pi
+{nimiLinku}[nimi Linku]. ijo lon toki ni li utala e lipu lawa pi nimi
+Linku la, lipu lawa pi nimi Linku li anpa e toki ni.
+
+:nimiLinku: https://lipu-linku.github.io/about/nimi
+:nimiLinkuQuote: https://docs.google.com/spreadsheets/d/1xwgTAxwgn4ZAc4DBnHte0cqta1aaxe112Wh1rv9w5Yk/edit#gid=1610334520&range=A13:B13

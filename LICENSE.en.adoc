@@ -1,0 +1,46 @@
+SPDX-License-Identifier: (CC-BY-SA-3.0 AND CC-BY-SA-4.0) AND CC0-1.0
+
+`hunspell-tok` is in the public domain.
+
+To the extent possible under law, jan Juli / Kylie McClain <kylie@somas.is>
+has waived all copyright and related or neighboring rights to this work.
+
+http://creativecommons.org/publicdomain/zero/1.0/
+
+'''
+
+This CC0 copyright waiver covers the following:
+* All data which augments data sourced from nimi Linku.
+  This refers to all files which begin with `augment_`.
+* All files relating to the build system.
+  This refers to the `Makefile`, and the `*.jq` files used for
+  constructing the data, before creating the hunspell files.
+
+The product of this repository/build system is _not_ public domain; it
+an amalgamation of data licensed under the following licenses:
+* CC-BY-SA 3.0 and CC-BY-SA 4.0, which covers
+    ** nimi Linku data
+* Public domain, which covers
+    ** data from the official dictionary from
+       "Toki Pona: The Language of Good"
+    ** data from this repository's augmentations
+
+As of writing (2022-08-29), nimi Linku is licensed under multiple licenses:
+> _The Official Toki Pona Dictionary_ on pages 125 to 134 of "Toki Pona:
+> The Language of Good" is in the **public domain**.
+> _nimi ale pona_ is licensed to the public for reuse under the **Creative
+> Commons Attribution ShareAlike licenses 3.0 and 4.0**.
+> As of 2022-06-12, _Linku_ is in the process of getting licensed to the
+> public for reuse under the **Creative Commons Attribution ShareAlike
+> licenses 3.0 and 4.0**.
+> If you contribute text directly to Linku, you thereby agree to license
+> it under the same licenses (CC BY-SA 3.0 and CC BY-SA 4.0).
+> --{nimiLinkuQuote}
+
+Please refer to {nimiLinku}[nimi Linku] for the most recent licensing
+information. Anything in this document that contradicts the licensing
+of nimi Linku is supersceded by the licensing information put forth by
+nimi Linku.
+
+:nimiLinku: https://lipu-linku.github.io/about/nimi
+:nimiLinkuQuote: https://docs.google.com/spreadsheets/d/1xwgTAxwgn4ZAc4DBnHte0cqta1aaxe112Wh1rv9w5Yk/edit#gid=1610334520&range=A13:B13
