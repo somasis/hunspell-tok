@@ -1,8 +1,35 @@
+# SPDX-License-Identifier: CC0-1.0
+
+# TODO: This could use improving; namely...
+# - words should *always* be lowercase; only proper nouns are uppercase
+# - hunspell shouldn't suggest changes to uppercased versions of words
+#   when it encounters words that begin with uppercase letters.
+#   it should only offer to try and correct away from invalid syllables.
+
 SET UTF-8
-TRY aeijklmnopstuw
 
-KEY qwertyuiop|asdfghjkl|zxcvbnm
+LANG tok
 
+# Always suggest lowercasing uppercased words;
+# improve suggestions when words are missing spaces.
+# With, "Kenla" suggests "ken la"; without, suggests "en la".
+# Additionally, try to change words according to phonetic guidelines
+# <https://jan-ne.github.io/tp/tpize>
+KEY Aa|Ee|Ii|Jj|Kk|Ll|Mm|Nn|Oo|Pp|Ss|Tt|Uu|Ww|BP|bp|DT|dt|GK|gk
+
+# Make words suffixed with /kc always maintain their casing
+KEEPCASE kc
+
+# Forbid suggesting words that are not recognized by more than
+# 60% of respondants according to Linku's word survey data.
+NOSUGGEST ns
+
+# Forbid all word-compounding.
 BREAK 0
 
-KEEPCASE lc
+# Always correct away from usages of wuwojiti, the four invalid syllables.
+OCONV 4
+OCONV wu u
+OCONV wo o
+OCONV ji i
+OCONV ti si

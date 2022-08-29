@@ -1,0 +1,650 @@
+{
+  "data": {
+    "a": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "akesi": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "ala": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "alasa": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "ale": {
+      "flags": [
+        "ph:ali"
+      ],
+      "pos": [
+        "adjective",
+        "noun",
+        "number"
+      ]
+    },
+    "ali": {
+      "pos": [
+        "adjective",
+        "noun",
+        "number"
+      ]
+    },
+    "anpa": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "ante": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "anu": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "awen": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "e": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "en": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "esun": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "ijo": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "ike": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "ilo": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "insa": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "jaki": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "jan": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "jelo": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "jo": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "kala": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "kalama": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "kama": {
+      "pos": [
+        "adjective",
+        "preverb"
+      ]
+    },
+    "kasi": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "ken": {
+      "pos": [
+        "preverb",
+        "adjective"
+      ]
+    },
+    "kepeken": {
+      "pos": [
+        "preposition"
+      ]
+    },
+    "kili": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "kin": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "kiwen": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "ko": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "kon": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "kule": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "kulupu": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "kute": {
+      "pos": [
+        "noun",
+        "verb"
+      ]
+    },
+    "la": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "lape": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "laso": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "lawa": {
+      "pos": [
+        "adjective",
+        "verb"
+      ]
+    },
+    "len": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "lete": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "li": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "lili": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "linja": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "lipu": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "loje": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "lon": {
+      "pos": [
+        "preposition"
+      ]
+    },
+    "luka": {
+      "pos": [
+        "noun",
+        "number"
+      ]
+    },
+    "lukin": {
+      "pos": [
+        "noun",
+        "verb",
+        "preverb"
+      ]
+    },
+    "lupa": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "ma": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "mama": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "mani": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "meli": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "mi": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "mije": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "moku": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "moli": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "monsi": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "mu": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "mun": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "musi": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "mute": {
+      "pos": [
+        "adjective",
+        "noun"
+      ]
+    },
+    "namako": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "nanpa": {
+      "pos": [
+        "particle",
+        "noun"
+      ]
+    },
+    "nasa": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "nasin": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "nena": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "ni": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "nimi": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "noka": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "o": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "oko": {
+      "pos": [
+        "noun",
+        "verb",
+        "preverb"
+      ]
+    },
+    "olin": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "ona": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "open": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "pakala": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "pali": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "palisa": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "pan": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "pana": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "pi": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "pilin": {
+      "pos": [
+        "noun",
+        "adjective"
+      ]
+    },
+    "pimeja": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "pini": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "pipi": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "poka": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "poki": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "pona": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "pu": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "sama": {
+      "pos": [
+        "adjective",
+        "preposition"
+      ]
+    },
+    "seli": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "selo": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "seme": {
+      "pos": [
+        "particle"
+      ]
+    },
+    "sewi": {
+      "pos": [
+        "noun",
+        "adjective"
+      ]
+    },
+    "sijelo": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "sike": {
+      "pos": [
+        "noun",
+        "adjective"
+      ]
+    },
+    "sin": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "sina": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "sinpin": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "sitelen": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "sona": {
+      "pos": [
+        "verb",
+        "preverb"
+      ]
+    },
+    "soweli": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "suli": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "suno": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "supa": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "suwi": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "tan": {
+      "pos": [
+        "preposition"
+      ]
+    },
+    "taso": {
+      "pos": [
+        "particle",
+        "adjective"
+      ]
+    },
+    "tawa": {
+      "pos": [
+        "preposition",
+        "adjective"
+      ]
+    },
+    "telo": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "tenpo": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "toki": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "tomo": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "tu": {
+      "pos": [
+        "number"
+      ]
+    },
+    "unpa": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "uta": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "utala": {
+      "pos": [
+        "verb"
+      ]
+    },
+    "walo": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "wan": {
+      "pos": [
+        "adjective",
+        "number"
+      ]
+    },
+    "waso": {
+      "pos": [
+        "noun"
+      ]
+    },
+    "wawa": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "weka": {
+      "pos": [
+        "adjective"
+      ]
+    },
+    "wile": {
+      "pos": [
+        "preverb"
+      ]
+    }
+  }
+}

@@ -20,6 +20,6 @@ You can install this and use it like any other `hunspell(1)` dictionary.
 == Words included
 
 This dictionary contains all the words from {linku}[nimi Linku], with the addition of common
-place names and language names.
+place names, language names, and Toki Pona names.
 
 :linku: https://lipu-linku.github.io/

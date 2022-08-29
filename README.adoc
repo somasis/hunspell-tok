@@ -24,6 +24,6 @@ sina kama jo e ni lon ilo sona sina la, sina ken kepeken ni lon ilo `hunspell(1)
 == nimi lon
 
 poki ni li jo e nimi ale tan {linku}[nimi Linku]. poki ni li sin lili e ni
-kepeken nimi ma, kepeken nimi toki.
+kepeken nimi ma, kepeken nimi toki, kepeken nimi jan pi toki pona.
 
 :linku: https://lipu-linku.github.io/
