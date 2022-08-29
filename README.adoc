@@ -3,20 +3,27 @@
 
 xref:README.en.adoc[There's an English version of this README].
 
-poki kon ni li jo e nimi pi toki pona lon ilo http://hunspell.github.io/[`hunspell(1)`].
+poki ni li jo e nimi pi toki pona lon ilo http://hunspell.github.io/[`hunspell(1)`].
 
 sina kama jo e ni lon ilo sona sina la, sina ken kepeken ni lon ilo `hunspell(1)`.
 
 == nasin pana
 
-1. sina wile kepeken ni lon ilo pi lukin lipu la, `make bdic`.
-   ilo sina o jo e ilo `qwebengine_convert_dict`. ona li ken lon poki pi ilo `qtwebengine`.
-2. `make install [prefix=/usr/local]`. o lukin e lipu kon Makefile la o kama sona ante ken
-   pi nasin pana.
+* sina wile kepeken ni lon ilo pi lukin lipu la, `make tok.bdic`.
+  ilo sina o jo e ilo `qwebengine_convert_dict`.
+  ona li ken lon poki pi ilo `qtwebengine`.
+
+* `make install [prefix=/usr/local]`.
+  o lukin e lipu ilo Makefile la o kama sona ante ken pi nasin pana.
+
+=== nasin pali
+
+* `make clean`, `make dev`.
+  ni li sin e nimi Linku lon poki ni li pali sin e lipu pini.
 
 == nimi lon
 
-poki ni li jo e nimi tan {pu}[lipu pu] taso. jan Sonja li pali e ni li pana e nimi pi lipu pu
-tawa jan ale. ale li ken jo e nimi. pali ona pi nimi pu li wile ala mani.
+poki ni li jo e nimi ale tan {linku}[nimi Linku]. poki ni li sin lili e ni
+kepeken nimi ma, kepeken nimi toki.
 
-:pu: https://tokipona.org/
+:linku: https://lipu-linku.github.io/
