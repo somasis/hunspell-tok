@@ -5,22 +5,24 @@ datadir ?= ${prefix}/share
 dictdir ?= ${datadir}/hunspell
 bdicdir ?= ${datadir}/qt/qtwebengine_dictionaries
 
-linku ?= https://lipu-linku.github.io/jasima/data.json
+linku ?= https://linku.la/jasima/data.json
 
 dev: data.json all
 
 all: tok.dic
 
-data.json: filter_linku.jq
-data.json: augment.json augment_languages.json augment_places.json
-	curl -Lf ${linku} \
-	    | jq -s '.[0] * .[1] * .[2] * .[3] * .[4] * .[5]' \
-	        - \
-	        ./augment.json \
-	        ./augment_places.json \
-	        ./augment_languages.json \
-	        ./augment_names.json \
-	        ./augment_transliterations.json \
+linku.json:
+	curl -Lf -o linku.json ${linku}
+
+data.json: linku.json filter_linku.jq
+data.json: augment.json augment_languages.json augment_names.json augment_places.json augment_transliterations.json
+	jq -s '.[0] * .[1] * .[2] * .[3] * .[4]' \
+	    ./linku.json \
+	    ./augment.json \
+	    ./augment_languages.json \
+	    ./augment_names.json \
+	    ./augment_places.json \
+	    ./augment_transliterations.json \
 	    | jq -cf ./filter_linku.jq > data.json
 
 tok.dic: data.json generate_dic.jq
@@ -42,7 +44,7 @@ dist: clean dev
 	    | gzip -9 > "hunspell-tok-$$tag".tar.gz
 
 clean:
-	rm -f tok.bdic tok.dic data.json
+	rm -f tok.bdic tok.dic linku.json data.json
 
 install: tok.aff tok.dic
 	install -d ${DESTDIR}${dictdir}
