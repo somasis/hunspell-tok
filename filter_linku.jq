@@ -1,25 +1,23 @@
 #!/usr/bin/jq -rf
 
-# Takes a combined JSON object (jasima Linku JSON + augment*.json)
+# Takes a combined JSON object (sona Linku JSON + augment*.json)
 # as input, reshapes it, and filters it according to dictionary
 # inclusion criteria.
 
 {
     words:
-        (.data
-            # Reshape data to be smaller and more standard.
+        (.words
+            # Reshape words to be smaller and more standard.
             | map_values(
                 {
                     word,
                     pos,
 
                     # Remaining attributes are used for filtering, or flags
-                    etymology,
-                    def: (.def.en),
+                    definition: (.translations.en.definitions // ""),
 
-                    # First recognition percentage is used as it's always the
-                    # latest survey taken.
-                    recognition: (first(.recognition[]? | tonumber) // null),
+                    # Usage percentage from the latest survey is always used.
+                    usage: (.usage | to_entries | sort_by(.key) | reverse[0].value // null),
 
                     book: (if .book == "none" then null else .book end),
                     commentary: .commentary
@@ -31,26 +29,27 @@
                 select(
                     (
                         # - words documented as typos;
-                        ( .etymology // "" | startswith("typo ") )
+                        (.translations.en.definitions // "" | startswith("[typo "))
 
                         # - words documented as reserved words
-                        or ( .def // "" | test("\\bword reserved\\b") )
+                        or (.translations.en.definitions // "" | test("\\bword reserved\\b"))
 
                         # - words deprecated by their creators
-                        or ( .commentary // "" | test("\\bdeprecated\\b") )
+                        or (.translations.en.commentary // "" | test("\\bdeprecated\\b"))
 
-                        # - words without a book *and* a recognition percentage
+                        # - words without a book *and* a usage percentage
                         #   of less than 1/3 of speakers, or no percentage
                         or (
                             (.book == null)
                                 and (
-                                    (.recognition == null)
-                                        or ((.recognition // 0) < (1/3)*100)
+                                    (.usage == null)
+                                        or ((.usage // 0) < (1/3)*100)
                                 )
                         )
                     )
                     | not # and then invert the selection
                 )
+                    | del(.commentary)
             )
         )
     , names: (

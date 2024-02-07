@@ -23,3 +23,8 @@ You can install this and use it like any other `hunspell(1)` dictionary.
 
 This dictionary contains all the words from {linku}[nimi Linku], with the addition of common
 place names, language names, and Toki Pona names.
+
+== Developing
+
+Make sure to use `git clone --recurse-submodules https://github.com/somasis/hunspell-tok`
+when cloning this repository. Otherwise, you won't have the sona Linku data.

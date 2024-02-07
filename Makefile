@@ -5,19 +5,20 @@ datadir ?= ${prefix}/share
 dictdir ?= ${datadir}/hunspell
 bdicdir ?= ${datadir}/qt/qtwebengine_dictionaries
 
-linku ?= https://linku.la/jasima/data.json
-
-dev: data.json all
+dev: update data.json all
 
 all: tok.dic
 
-linku.json:
-	curl -Lf -o linku.json ${linku}
+update: .gitmodules
+	git submodule update --init --remote sona
 
-data.json: linku.json filter_linku.jq
+sona/raw/words.json: .gitmodules
+	git submodule sync sona
+
+data.json: sona/raw/words.json filter_linku.jq
 data.json: augment.json augment_languages.json augment_names.json augment_places.json augment_transliterations.json
-	jq -s '.[0] * .[1] * .[2] * .[3] * .[4]' \
-	    ./linku.json \
+	jq -s '{ words: .[0] } * .[1] * .[2] * .[3] * .[4]' \
+	    ./sona/raw/words.json \
 	    ./augment.json \
 	    ./augment_languages.json \
 	    ./augment_names.json \
@@ -44,7 +45,8 @@ dist: clean dev
 	    | gzip -9 > "hunspell-tok-$$tag".tar.gz
 
 clean:
-	rm -f tok.bdic tok.dic linku.json data.json
+	-git submodule deinit -f sona
+	rm -f tok.bdic tok.dic data.json
 
 install: tok.aff tok.dic
 	install -d ${DESTDIR}${dictdir}

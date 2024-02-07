@@ -1,0 +1,4 @@
+[submodule "sona"]
+	path = sona
+	url = https://github.com/lipu-linku/sona
+	shallow = true

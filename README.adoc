@@ -16,11 +16,6 @@ sina kama jo e ni lon ilo sona sina la, sina ken kepeken ni lon ilo `hunspell(1)
 * `make install [prefix=/usr/local]`.
   o lukin e lipu ilo Makefile la o kama sona ante ken pi nasin pana.
 
-=== nasin pali
-
-* `make clean`, `make dev`.
-  ni li sin e nimi Linku lon poki ni li pali sin e lipu pini.
-
 == nimi lon
 
 :linku: https://lipu-linku.github.io/
@@ -28,3 +23,9 @@ sina kama jo e ni lon ilo sona sina la, sina ken kepeken ni lon ilo `hunspell(1)
 poki ni li jo e nimi ale tan {linku}[nimi Linku]. poki ni li sin lili e ni
 kepeken nimi ma, kepeken nimi toki, kepeken nimi jan pi toki pona.
 
+== nasin pali
+
+sina wile jo e poki ni la sina o kepeken
+`git clone --recurse-submodules https://github.com/somasis/hunspell-tok`.
+
+sina kepeken ala `--recurse-submodules` la ona li jo ala e nimi pi sona Linku.

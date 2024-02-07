@@ -16,7 +16,7 @@
             if (
                 (.book == "pu")
                     or (
-                        (.recognition >= ((1/3)*2)*100)
+                        (.usage >= ((1/3)*2)*100)
                     )
                 ) then
                 ""
